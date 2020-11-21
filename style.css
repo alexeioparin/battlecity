@@ -1,0 +1,47 @@
+body {
+  background-color: black;
+  overflow: hidden;
+}
+
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper > div {
+  min-height: 200px;
+  position: relative;
+}
+
+.userTank,
+.eagle {
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  transform-origin: center center;
+  box-sizing: border-box;
+}
+
+.userTank {
+  background-image: url('content/sprites/tank.png');
+  margin-top: 2px;
+  margin-left: 2px;
+}
+
+.eagle {
+  background-image: url('content/sprites/eagle.png');
+  margin-left: 2px;
+  margin-bottom: 6px;
+}
+
+.bullet {
+  box-sizing: border-box;
+  background-color: white;
+}
+
+#map {
+  border: 2px solid white;
+}
